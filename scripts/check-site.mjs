@@ -30,7 +30,7 @@ for (const name of ['kind', 'name', 'phone', 'service', 'place', 'date', 'detail
 }
 assert.match(home, /name="consent"[^>]*required/);
 assert.match(home, /new URLSearchParams\(new FormData\(requestForm\)\)/);
-assert.match(home, /index\.html\?service=/);
+assert.match(pages['services.html'], /index\.html\?service=/);
 assert.match(home, /https:\/\/wa\.me\/263779724648/);
 assert.match(home, /images are illustrative|Photography is illustrative/i);
 const services = pages['services.html'];
