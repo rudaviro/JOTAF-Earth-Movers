@@ -50,5 +50,5 @@ requestForm.addEventListener('submit',async e=>{
     if(popup){popup.location.href=whatsapp;}else{window.location.href=whatsapp;}
   }
 });
-document.getElementById('copyContact').addEventListener('click',async e=>{const data='JOTAF Earth Movers\nRobson Tafadzwa Jinjika\n+263779724648\nJinjikatafadzwa@gmail.com\n1100 Highlands, Zvishavane, Zimbabwe\nhttps://jotafearthmovers.netlify.app';try{await navigator.clipboard.writeText(data);e.currentTarget.textContent='CONTACT DETAILS COPIED'}catch{window.prompt('Copy these details:',data)}});document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('copyContact').addEventListener('click',async e=>{const data='JOTAF Earth Movers\nRobson Tafadzwa Jinjika\n+263779724648\nJinjikatafadzwa@gmail.com\n1100 Highlands, Zvishavane, Zimbabwe\nhttps://jotafearthmovers.site';try{await navigator.clipboard.writeText(data);e.currentTarget.textContent='CONTACT DETAILS COPIED'}catch{window.prompt('Copy these details:',data)}});document.getElementById('year').textContent=new Date().getFullYear();
 </script></body></html>
